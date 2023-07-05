@@ -68,13 +68,14 @@
     h2 {
         font-family: 'Times New Roman', cursive;
         font-weight: 400px;
-        
+        color:#FFFEFE;
        
     }
     
     h2 {
         margin: 0;
         margin-bottom: 20px;
+        
     }
 
     
@@ -82,6 +83,7 @@
         margin: 0;
         margin-bottom: 20px;
         font-size: 30px;
+        text-align: center;
     }
     
     .container {
@@ -98,6 +100,7 @@
     h3+p {
         font-style: italic;
     }
+    
     
     .item-details h3~p {
         margin: 0;
@@ -179,6 +182,32 @@ nav {
 .nav-ul li a {
     text-decoration: none;
     font-size: 18px;
+}
+
+
+/* About Me */
+
+#about-me {
+    background-color: #EEE;
+}
+
+.grid-container {
+    color: #F7FFF7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grid-container .grid-item {
+    background-color: #227C9D;
+    padding: 0 20px;
+    font-size: 16px;
+}
+
+.grid-container .grid-item:hover {
+    transform: scale(1.01);
+}
+
+#my-page-repo {
+    color: #343434;
 }
 
  /* Contact Info */
