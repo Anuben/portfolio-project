@@ -263,6 +263,24 @@ h4 {
     transform: scale(1.01);
 }
 
+ /* Education */
+    
+.education {
+    background-image: url(../assets/images/education.jpg);
+    background-position: center;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.education p {
+    width: 60%;
+}
+
+.csc h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
  /* Contact Info */
     
 footer {
