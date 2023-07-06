@@ -210,6 +210,15 @@ nav {
     color: #343434;
 }
 
+  /* Work Experience */
+    
+.work-experience {
+    background: #EEE;
+}
+
+h4 {
+    font-size: 20px;
+}
  /* Contact Info */
     
 footer {
